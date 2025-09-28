@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Upcoming Appointments">
+        <!-- Show datatable if appointments exist -->
+        <template if:true={appointments}>
+            <lightning-datatable
+                key-field="Id"
+                data={appointments}
+                columns={columns}>
+            </lightning-datatable>
+        </template>
+
+        <!-- Show error message -->
+        <template if:true={error}>
+            <p class="slds-text-color_error">{error}</p>
+        </template>
+
+        <!-- Show message when appointments is empty -->
+        <template if:true={noAppointments}>
+            <p class="slds-p-around_small">No upcoming appointments found.</p>
+        </template>
+    </lightning-card>
+</template>
