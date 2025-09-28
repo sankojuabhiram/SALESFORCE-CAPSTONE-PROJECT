@@ -1,7 +1,5 @@
 # 🏥 MediCare Connect – Patient Appointment & Follow-Up CRM  
 
- 🔗Demo Video: https://drive.google.com/file/d/1ezLBNatMwuPOwQcfqtiKQBd6Gia8qag_/view?usp=sharing
-
 A Salesforce Lightning application to streamline **doctor availability, appointment scheduling, medical case management, and follow-ups** for healthcare providers.  
 
 ---
